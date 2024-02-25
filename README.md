@@ -14,6 +14,16 @@ Este repositório contém exemplos de implementação de vários padrões de des
 8. Padrão Composite
 9. Padrão Proxy
 10. Padrão Flyweight
+11. Padrão Command
+12. Padrão Adapter
+13. Padrão Facade
+14. Padrão Bridge
+15. Padrão Composite
+16. Padrão Prototype
+17. Padrão Builder
+18. Padrão Mediator
+19. Padrão Chain of Responsibility
+20. Padrão Visitor
 
 ## Padrão Singleton
 
@@ -54,4 +64,44 @@ O padrão Proxy fornece um substituto ou espaço reservado para outro objeto par
 ## Padrão Flyweight
 
 O padrão Flyweight usa compartilhamento para suportar eficientemente grandes quantidades de objetos de granulação fina. Um objeto flyweight é um objeto compartilhado que pode ser usado em vários contextos simultaneamente. O objeto flyweight atua como um objeto independente em cada contexto - é indistinguível de uma instância do objeto.
+
+## Padrão Command
+
+O padrão Command encapsula uma solicitação como um objeto, permitindo que você parametrize clientes com filas, solicitações e operações. Ele também permite suportar operações que podem ser desfeitas.
+
+## Padrão Adapter
+
+O padrão Adapter converte a interface de uma classe em outra interface que os clientes esperam. O Adapter permite que classes trabalhem juntas, o que de outra forma não poderia devido a interfaces incompatíveis.
+
+## Padrão Facade
+
+O padrão Facade fornece uma interface unificada para um conjunto de interfaces em um subsistema. A fachada define uma interface de nível superior que facilita o uso do subsistema.
+
+## Padrão Bridge
+
+O padrão Bridge desacopla uma abstração de sua implementação, para que as duas possam variar independentemente.
+
+## Padrão Composite
+
+O padrão Composite compõe objetos em estruturas de árvore para representar hierarquias parte-todo. O Composite permite que os clientes tratem objetos individuais e composições de objetos de maneira uniforme.
+
+## Padrão Prototype
+
+O padrão Prototype é usado quando a criação de um novo objeto é cara e consome recursos. Ele fornece uma maneira de copiar um objeto original, o protótipo, e reutilizá-lo para criar novos objetos.
+
+## Padrão Builder
+
+O padrão Builder é usado para construir um objeto complexo passo a passo. Ele separa a construção de um objeto complexo de sua representação, de modo que o mesmo processo de construção possa criar diferentes representações.
+
+## Padrão Mediator
+
+O padrão Mediator define um objeto que encapsula como um conjunto de objetos interage. Ele promove o acoplamento fraco ao evitar que os objetos se refiram uns aos outros explicitamente, permitindo que você varie suas interações independentemente.
+
+## Padrão Chain of Responsibility
+
+O padrão Chain of Responsibility evita o acoplamento do remetente de uma solicitação ao seu receptor, dando a mais de um objeto a oportunidade de tratar a solicitação. Encadeia os objetos de recepção e passa a solicitação ao longo da cadeia até que um objeto a trate.
+
+## Padrão Visitor
+
+O padrão Visitor representa uma operação a ser executada nos elementos de uma estrutura de objeto. O Visitor permite que você defina uma nova operação sem alterar as classes dos elementos nos quais opera.
 
