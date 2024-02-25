@@ -99,7 +99,7 @@ O padrão Command encapsula uma solicitação como um objeto, permitindo que voc
 
 ### Padrão Interpreter
 
-O padrão Interpreter fornece uma maneira de avaliar a gramática ou expressão de linguagem. Este tipo de padrão vem sob o padrão comportamental[^2^][5].
+O padrão Interpreter fornece uma maneira de avaliar a gramática ou expressão de linguagem. Este tipo de padrão vem sob o padrão comportamental.
 
 ### Padrão Iterator
 
