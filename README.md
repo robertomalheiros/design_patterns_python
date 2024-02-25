@@ -54,3 +54,34 @@ O padrão Builder é usado para construir um objeto complexo passo a passo. Ele 
 ### Padrão Abstract Factory
 
 O padrão Abstract Factory fornece uma interface para criar famílias de objetos relacionados ou dependentes sem especificar suas classes concretas. É útil quando um sistema deve ser independente de como seus produtos são criados, compostos e representados[^1^][1].
+
+
+### Padrões Estruturais
+
+### Padrão Adapter
+
+O padrão Adapter converte a interface de uma classe em outra interface que os clientes esperam. O Adapter permite que classes trabalhem juntas, o que de outra forma não poderia devido a interfaces incompatíveis[^1^][1].
+
+### Padrão Bridge
+
+O padrão Bridge desacopla uma abstração de sua implementação, para que as duas possam variar independentemente[^1^][1].
+
+### Padrão Composite
+
+O padrão Composite compõe objetos em estruturas de árvore para representar hierarquias parte-todo. O Composite permite que os clientes tratem objetos individuais e composições de objetos de maneira uniforme[^1^][1].
+
+### Padrão Decorator
+
+O padrão Decorator anexa responsabilidades adicionais a um objeto dinamicamente. Os decoradores fornecem uma alternativa flexível à subclasse para estender a funcionalidade[^1^][1].
+
+### Padrão Facade
+
+O padrão Facade fornece uma interface unificada para um conjunto de interfaces em um subsistema. A fachada define uma interface de nível superior que facilita o uso do subsistema[^1^][1].
+
+### Padrão Flyweight
+
+O padrão Flyweight usa compartilhamento para suportar eficientemente grandes quantidades de objetos de granulação fina. Um objeto flyweight é um objeto compartilhado que pode ser usado em vários contextos simultaneamente[^1^][1].
+
+### Padrão Proxy
+
+O padrão Proxy fornece um substituto ou espaço reservado para outro objeto para controlar o acesso a ele. O uso do proxy pode ser simplesmente para encaminhamento para o objeto real, ou pode fornecer lógica adicional[^1^][1].
