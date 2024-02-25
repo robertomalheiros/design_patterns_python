@@ -24,6 +24,9 @@ Este repositório contém exemplos de implementação de vários padrões de des
 18. Padrão Mediator
 19. Padrão Chain of Responsibility
 20. Padrão Visitor
+21. Padrão Interpreter
+22. Padrão Iterator
+23. Padrão Memento
 
 ## Padrão Singleton
 
@@ -105,3 +108,14 @@ O padrão Chain of Responsibility evita o acoplamento do remetente de uma solici
 
 O padrão Visitor representa uma operação a ser executada nos elementos de uma estrutura de objeto. O Visitor permite que você defina uma nova operação sem alterar as classes dos elementos nos quais opera.
 
+## Padrão Interpreter
+
+O padrão Interpreter fornece uma maneira de avaliar a gramática ou expressão de linguagem. Este tipo de padrão vem sob o padrão comportamental.
+
+## Padrão Iterator
+
+O padrão Iterator é muito comumente usado em um conjunto de dados. Este padrão é usado para obter uma maneira de acessar os elementos de uma coleção de objetos de maneira sequencial sem precisar expor sua representação subjacente.
+
+## Padrão Memento
+
+O padrão Memento é usado quando queremos salvar o estado de um objeto para que possamos restaurá-lo mais tarde. O Memento é um objeto de valor que representa um instantâneo de um objeto.
